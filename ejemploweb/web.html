@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title> Ejemplo Web </title>
+  <link rel="stylesheet" type="text/css" href="web.css" media="screen" />
+  <script type="text/javascript" src="web.js"></script>
+</head>
+
+<body>
+    <div id="datos">
+        <h3>Escríbenos tus datos:</h3>
+        <form method="post">
+            <fieldset>
+                <div class="tunombre">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" value="" />
+                </div>
+                <div class="tuedad">
+                    <label for="age">Edad:</label>
+                    <input type="text" id="age" name="age" value="" />
+                </div>
+
+                    <input type="button" id="b1" value="Add" class="boton" onclick="addPerson()"/>
+
+
+                    <input type="button" id="b2" value="Print" class="boton" onclick="printPerson()"/>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
